@@ -1,0 +1,333 @@
+@font-face {
+    font-family: face;
+    src: url(./assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
+    src: url(./assets/fonts/static/HankenGrotesk-Bold.ttf);
+    src: url(./assets/fonts/static/HankenGrotesk-Medium.ttf);
+
+}
+    *{
+    border: 0;
+    padding: 0;
+    margin: 0;
+   }
+
+   
+
+body{
+     background-color:hsl(221, 100%, 96%);
+}
+
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8em;
+    font-family: face;
+       
+    
+}
+
+.flex1{
+    background-color: rgb(249, 249, 249);
+  height: 22.45em;
+  width: 18em;
+  border-radius: 0 1em 1em 0;
+  margin-left: -1.5em;
+  margin-top: 1.2em;
+  
+
+}
+.flex1 button{
+  transform: translate(0em, 1.5em);
+    width:16em;
+    height: 3em;
+    border-radius: 2em;
+        background-color:  hsl(224, 30%, 27%);
+color: aliceblue;
+
+}
+
+.flex1 button:hover{
+    background-color:  hsla(241, 72%, 46%);
+}
+
+.flex1 .border2 p{
+    border: 0.1em;
+  padding: 0.8em;
+  padding-top: .3em;
+  padding-bottom: .9em;
+  border-radius: .5em;
+  margin-right: 3.2em;
+  font-weight: medium;
+  font-size: 13px;
+  margin-top: 1.3em;
+transform: translate(.6em);
+text-align: start;
+ clip-path: none;
+}
+
+.flex1 h3{
+    margin-top: 1.4em;
+    transform: translate(-3.5em);
+}
+
+.flex1 img{
+    transform: translateY(.3em);
+    height: 1.3em;
+}
+
+
+.flex2{
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
+    height: 20em;
+    width: 16em;
+    border-radius: 1.5em;
+      font-size: 18px;
+   color: hsl(241, 100%, 80%);
+   position: relative;
+   margin-top: -1em;
+      clip-path: none;
+}
+
+.border{
+        font-weight: 800;
+    justify-self: center;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius:30em;
+    padding: 1.8em;
+    width: 4.5em;
+    color:   hsl(241, 100%, 80%);
+    margin-top: .9em;
+
+}
+
+.flex2 h3{
+    margin-bottom: .2em;
+    letter-spacing:.03em ;
+}
+
+.flex2 p{
+    padding-left: 6em;
+    transform: translate(-3em);
+    margin-top: -.4em ;
+    font-size: 14px;
+    letter-spacing: .01em;
+    line-height: 1.3em;
+
+ 
+}
+
+.flex2 span{
+   color:  hsl(0, 0%, 100%);
+font-size: 50px;
+}
+
+@media(min-width: 375px){
+
+
+    main{
+        margin-top: -7px;
+    }
+    .flex2{
+        transform: translate(-.65em, 2.1em);
+        max-width: 15.33em;
+    clip-path: inset( 60px 0 0 0);
+}
+
+.flex2 h3{
+    margin-top: 1em;
+    letter-spacing:.01em ;
+    font-size: 17px;
+
+}
+
+.flex2 p{
+   translate: 0em 5em;
+    font-size: 12px;
+ 
+
+}
+ .flex2 .border,.flex2 h3{
+    translate: 0 3.5em;
+ }
+
+
+
+
+
+.border{
+    max-width: 3.5em;
+    max-height: 4em;
+    padding-top: 1.5em;
+
+}
+
+.flex1 {
+border-radius: 0;
+box-shadow: none;
+max-width: 17em;
+padding-right:-3em;
+box-shadow: 1px  1px 20px rgb(188, 187, 187);
+
+}
+
+.flex1 .border2 p{
+margin-left:2em;
+
+}
+
+.flex1 button {
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+}
+
+.flex1 h3{
+    position: relative;
+    margin-top:2em;
+    
+}
+}
+
+@media(min-width: 523px) {
+    main{
+        margin-top: 5em;
+    }
+
+
+    .flex2{
+    
+   position: relative;
+   margin-right: -.5em;
+   translate: 0 .1em;
+   clip-path:none;
+   height: 20.2em;
+   translate:-.2em -.1em;
+}
+
+
+ .flex2 .border,.flex2 h3{
+    translate: 0 -.1em;
+    margin-top: 1.5em;
+ }
+  .flex2 p{
+    padding-left: 9em;
+    translate: -1.2em .5em;
+  }
+
+  .flex1 h3, .border2, button{
+    translate: .5em ;
+  }
+
+  .flex1{
+    border-radius: 0 1em 1em 0;
+  }
+}
+
+
+@media(min-width: 768px) {
+    main{
+        margin-top: 5em;
+    }
+
+
+    .flex2{
+    
+   position: relative;
+   margin-right: -.5em;
+   translate: 0 .1em;
+   clip-path:none;
+   height: 20.2em;
+   translate:-.2em -.1em;
+}
+
+
+ .flex2 .border,.flex2 h3{
+    translate: 0 -.1em;
+    margin-top: 1.5em;
+ }
+  .flex2 p{
+    padding-left: 9em;
+    translate: -1.2em .5em;
+  }
+
+  .flex1 h3, .border2, button{
+    translate: .5em ;
+  }
+
+  .flex1{
+    border-radius: 0 1em 1em 0;
+  }
+}
+
+@media(min-width: 1024px) {
+    main{
+        margin-top: 5em;
+    }
+
+
+    .flex2{
+    
+   position: relative;
+   margin-right: -.5em;
+   translate: 0 .1em;
+   clip-path:none;
+   height: 20.2em;
+   translate:-.2em -.1em;
+}
+
+
+ .flex2 .border,.flex2 h3{
+    translate: 0 -.1em;
+    margin-top: 1.5em;
+ }
+  .flex2 p{
+    padding-left: 9em;
+    translate: -1.2em .5em;
+  }
+
+  .flex1 h3, .border2, button{
+    translate: .5em ;
+  }
+
+  .flex1{
+    border-radius: 0 1em 1em 0;
+  }
+}
+
+@media(min-width: 1440px) {
+    main{
+        margin-top: 15em;
+    }
+     
+
+    .flex2{
+    
+   position: relative;
+   margin-right: -.5em;
+   translate: 0 .1em;
+   clip-path:none;
+   height: 20.2em;
+   translate:-.2em -.1em;
+}
+
+
+ .flex2 .border,.flex2 h3{
+    translate: 0 -.1em;
+    margin-top: 1.5em;
+ }
+  .flex2 p{
+    padding-left: 9em;
+    translate: -1.2em .5em;
+  }
+
+  .flex1 h3, .border2, button{
+    translate: .5em ;
+  }
+
+  .flex1{
+    border-radius: 0 1em 1em 0;
+  }
+}
